@@ -1,0 +1,5 @@
+prompt user for number, n between 1 and 8, inclusive.
+    if the user does not enter a valid number, prompt them again until they cooperate
+n = number of blocks
+i = number of blocks left
+start

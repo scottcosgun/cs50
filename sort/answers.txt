@@ -1,0 +1,45 @@
+sort1 uses: bubble sort
+//real time reversed5000 = 0.093s
+//real time reversed10000 = 0.258s
+//real time reversed500000 = 5.764s
+
+//real time random5000 = 0.093s
+//real time random10000 = 0.305s
+//real time random50000 = 8.439s
+
+//real time sorted5000 = 0.022s
+//real time sorted10000 = 0.101s
+//real time sorted50000 = 0.581s
+
+How do you know?: This is one of the longer sorting functions, with different times for reversed and random (with random taking more time). However, sorted is much faster than others (order of n)
+
+sort2 uses: merge sort
+//real time reversed5000 = 0.023s
+//real time reversed10000 = 0.099s
+//real time reversed500000 = 0.823s
+
+//real time random5000 = 0.020s
+//real time random10000 = 0.067s
+//real time random50000 = 0.691s
+
+//real time sorted5000 = 0.023s
+//real time sorted10000 = 0.094s
+//real time sorted50000 = 0.694s
+
+How do you know?: This is the fastest of the 3 sort and follows nlogn for sorting time compared to size
+
+sort3 uses: selection sort
+//real time reversed5000 = 0.047s
+//real time reversed10000 = 0.163
+//real time reversed500000 = 3.340s
+
+//real time random5000 = 0.061s
+//real time random10000 = 0.162s
+//real time random50000 = 3.530s
+
+//real time sorted5000 = 0.042s
+//real time sorted10000 = 0.162s
+//real time sorted50000 = 3.158ss
+
+How do you know?: the time to sort the numbers is roughly the same for reversed and random, in all 3 comparisons.
+The upper and lower bound of selection sort (Big O and Big Omega) are both in n^2.
